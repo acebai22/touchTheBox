@@ -4,16 +4,16 @@
     height: 100%;
     width: 100%;
     background-color: #E4E6C3;
-    font-size: 3rem;
+    font-size: 2em;
 }
 body{
     background-color: rgb(229, 233, 161);
 }
 canvas{
-    border: 2rem solid rgb(73, 127, 156);
+    border: .5em solid rgb(73, 127, 156);
    background:rgb(0, 61, 75);
-   height: 100rem;
-   width: 100rem;
+   height: 45em;
+   width: 45em;
 }
 #entirety{
     display: flex;
@@ -46,7 +46,7 @@ canvas{
 }
 button{
     
-    font-size: 3rem;
+    font-size: 1em;
 }
 #startGame:hover{
     background:white;
@@ -76,11 +76,12 @@ width: 50%;
 }
 .scoreBox{
   
-    height: 6rem;
-    width: 30rem;
+    height: 2em;
+    width: 8em;
+    font-size: 1.5em;
     display:flex;
     align-items: center;
     justify-content: center;
-    border: .5rem solid rgb(73, 127, 156);
+    border: .1em solid rgb(73, 127, 156);
     background-color: rgb(255, 255, 255);
 }
