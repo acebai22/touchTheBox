@@ -1,7 +1,25 @@
+#welcomeScreen{
+    position: absolute;
+   text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: #E4E6C3;
+    font-size: 3rem;
+}
+body{
+    background-color: rgb(229, 233, 161);
+}
 canvas{
-    border: 10px solid rgb(0, 166, 255);
-   background-color: #251605;
-
+    border: 2rem solid rgb(73, 127, 156);
+   background:rgb(0, 61, 75);
+   height: 100rem;
+   width: 100rem;
+}
+#entirety{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
 }
 .inv{
     display: none;
@@ -20,17 +38,15 @@ canvas{
     background-color: rgb(74, 93, 96);
     color: white;
 }
-#welcomeScreen{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: #E4E6C3;
-}
 #startGame{
     width: 100%;
     background-color: #261C15;
     color: white;
     height: 200px;
+}
+button{
+    
+    font-size: 3rem;
 }
 #startGame:hover{
     background:white;
@@ -40,7 +56,7 @@ canvas{
 
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 50px;
+
 }
 h1{
     font-size: 40px;
@@ -52,4 +68,19 @@ h1{
 #replay:hover{
     background-color: rgb(104, 175, 175);
     color: white;
+}
+#scores{
+display: flex;
+justify-content: space-around;
+width: 50%;
+}
+.scoreBox{
+  
+    height: 6rem;
+    width: 30rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: .5rem solid rgb(73, 127, 156);
+    background-color: rgb(255, 255, 255);
 }

@@ -9,6 +9,7 @@
 
 </head>
 <body>
+    <div id="entirety">
     <div id="winScreen">
         <h1>We have a winner!</h1>
         <h1>Contratulations, <span id='winnerName'></span></h1>
@@ -22,9 +23,10 @@
         </p>
         <button id="startGame">Start Game</button>
     </div>
-    <h1>Player 1 Score: <span id="score">0</span> 
-        </h1><h1>Player 2 Score: <span id='score2'>0</span></h1>
-    <canvas id="canvas" height = '700' width="1200"></canvas>
+    <div id="scores"><h1 class="scoreBox" id="score1box">Player 1 Score: <span id="score">0</span></h1>
+        <h1 class="scoreBox" id="score2box">Player 2 Score: <span id='score2'>0</span></h1></div>
+    <canvas id="canvas" height = '1000px' width = '1000px'></canvas>
+</div>
     <script src="app.js"></script>
 </body>
 </html>
