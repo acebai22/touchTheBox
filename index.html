@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AceGame</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+<body>
+    <div id="winScreen">
+        <h1>We have a winner!</h1>
+        <h1>Contratulations, <span id='winnerName'></span></h1>
+        <button id="replay">Replay?</button>
+    </div>
+    <div id='welcomeScreen'>
+        <h2>Touch the box</h2>
+        <p>The objective is to use your square to...touch the box.
+            Player 1 uses WASD to move. Player 2 uses arrow keys.
+            First to 10 points wins. Good luck!
+        </p>
+        <button id="startGame">Start Game</button>
+    </div>
+    <h1>Player 1 Score: <span id="score">0</span> 
+        </h1><h1>Player 2 Score: <span id='score2'>0</span></h1>
+    <canvas id="canvas" height = '1000' width="1000"></canvas>
+    <script src="app.js"></script>
+</body>
+</html>
